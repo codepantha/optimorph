@@ -6,7 +6,6 @@ const page = () => {
     <div>
       <p>Home</p>
 
-      <UserButton afterSignOutUrl='/' />
     </div>
   )
 }
