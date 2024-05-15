@@ -29,7 +29,7 @@ const Sidebar = () => {
                     <li
                       key={link.route}
                       className={`sidebar-nav_element group cursor-pointer ${
-                        isActive ? 'bg-blue-500 text-white' : 'text-gray-700'
+                        isActive ? 'button-gradient text-white' : 'text-gray-700'
                       }`}
                     >
                       <Link className="sidebar-link" href={link.route}>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                     <li
                       key={link.route}
                       className={`sidebar-nav_element group cursor-pointer ${
-                        isActive ? 'bg-blue-500 text-white' : 'text-gray-700'
+                        isActive ? 'button-gradient text-white' : 'text-gray-700'
                       }`}
                     >
                       <Link className="sidebar-link" href={link.route}>
